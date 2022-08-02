@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{9A0A6CC0-51C3-4FC0-9174-8EA3A0E5D06F}|Default">
+  <MonoDevelop.Ide.ItemProperties.MedicalDB PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/Models/PatientsTreatment.cs">
+    <Files>
+      <File FileName="MedicalDB/Controllers/VaccinationController.cs" Line="1" Column="1" />
+      <File FileName="Entities/RequestFeatures/RequestParameters.cs" Line="28" Column="25" />
+      <File FileName="Repository/PatientRepository.cs" Line="29" Column="19" />
+      <File FileName="Repository/Extensions/RepositoryPatientExtensions.cs" Line="52" Column="49" />
+      <File FileName="Entities/DataTransferObjects/PatientDto.cs" Line="1" Column="1" />
+      <File FileName="MedicalDB/Program.cs" Line="17" Column="10" />
+      <File FileName="MedicalDB/Controllers/LifeAnamnesisController.cs" Line="1" Column="1" />
+      <File FileName="Entities/Models/Treatment.cs" Line="11" Column="51" />
+      <File FileName="Entities/DataTransferObjects/TreatmentDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/DataTransferObjects/TreatmentForCreationDto.cs" Line="7" Column="31" />
+      <File FileName="MedicalDB/Controllers/TreatmentController.cs" Line="1" Column="1" />
+      <File FileName="MedicalDB/MappingProfile.cs" Line="65" Column="1" />
+      <File FileName="Entities/Models/PatientsTreatment.cs" Line="14" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MedicalDB" expanded="True">
+            <Node name="Contracts" expanded="True" />
+            <Node name="Entities" expanded="True">
+              <Node name="DataTransferObjects" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="PatientsTreatment.cs" selected="True" />
+              </Node>
+              <Node name="RequestFeatures" expanded="True" />
+            </Node>
+            <Node name="MedicalDB" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Repository" expanded="True">
+              <Node name="Extensions" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

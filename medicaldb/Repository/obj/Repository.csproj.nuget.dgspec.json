@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ayezca/Desktop/t/medicaldb/Source/Repository/Repository.csproj": {}
+  },
+  "projects": {
+    "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/ayezca/.nuget/packages/",
+        "outputPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayezca/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj": {
+                "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj",
+        "packagesPath": "/Users/ayezca/.nuget/packages/",
+        "outputPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayezca/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayezca/Desktop/t/medicaldb/Source/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayezca/Desktop/t/medicaldb/Source/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Repository/Repository.csproj",
+        "packagesPath": "/Users/ayezca/.nuget/packages/",
+        "outputPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayezca/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Contracts/Contracts.csproj"
+              },
+              "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj": {
+                "projectPath": "/Users/ayezca/Desktop/t/medicaldb/Source/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

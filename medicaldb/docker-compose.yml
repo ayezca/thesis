@@ -1,0 +1,39 @@
+version: "3.3"
+
+volumes:
+  medical_api_volume:
+  medical_db_volume:
+networks:
+  medical_db_backend:
+
+services:
+  
+  db_main:
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5440:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: medical_main
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - medical_db_volume:/var/lib/postgresql/data
+    networks:
+      - medical_db_backend
+
+  medical_api:
+    image: medical
+    container_name: medical-api
+    build:
+      context: MedicalDB
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - 80:80
+    volumes:
+      - medical_api_volume:/app/wwwroot/content
+    networks:
+      - medical_db_backend
